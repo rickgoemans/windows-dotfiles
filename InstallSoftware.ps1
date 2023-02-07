@@ -12,6 +12,7 @@ $apps = @(
     @{name = "Adobe.Acrobat.Reader.64-bit" },
     @{name = "Chocolatey.ChocolateyGUI" },
     @{name = "Google.Chrome" },
+    @{name = "LogMeIn.LastPass" },
     @{name = "Logitech.GHUB" },
     @{name = "Malwarebytes.Malwarebytes" },
     @{name = "Microsoft.PowerShell" },
@@ -26,6 +27,7 @@ $apps = @(
     @{name = "Sonos.Controller" },
     @{name = "Spotify.Spotify" },
     @{name = "VideoLAN.VLC" },
+    @{name = "WhatsApp.WhatsApp" },
     @{name = "Zoom.Zoom" }
     
     # Coding
