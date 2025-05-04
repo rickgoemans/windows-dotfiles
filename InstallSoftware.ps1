@@ -27,7 +27,6 @@ $apps = @(
     @{name = "Git.Git" },
     @{name = "GitHub.GitHubDesktop" },
     @{name = "Microsoft.VisualStudioCode" },
-    @{name = "OpenJS.NodeJS.LTS" },
     @{name = "PuTTY.PuTTY" },
     @{name = "TablePlus.TablePlus" },
     @{name = "TimKosse.FileZilla.Client" },
