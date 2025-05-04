@@ -21,7 +21,6 @@ $apps = @(
     @{name = "Sonos.Controller" },
     @{name = "Spotify.Spotify" },
     @{name = "VideoLAN.VLC" },
-    @{name = "WhatsApp.WhatsApp" },
     
     # Coding
     @{name = "Docker.DockerDesktop" },
