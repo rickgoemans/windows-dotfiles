@@ -10,17 +10,15 @@ $apps = @(
     # General
     @{name = "7zip.7zip" },
     @{name = "Adobe.Acrobat.Reader.64-bit" },
-    @{name = "Chocolatey.ChocolateyGUI" },
+    @{name = "Bitwarden.Bitwarden"},
+    @{name = "Brave.Brave"},
+    @{name = "Corsair.iCUE.4"},
     @{name = "Logitech.GHUB" },
     @{name = "Malwarebytes.Malwarebytes" },
     @{name = "Microsoft.PowerToys" },
     @{name = "MOTU.MSeries" },
-    @{name = "Notion.Notion" },
-    @{name = "qBittorrent.qBittorrent" },
     @{name = "RevoUninstaller.RevoUninstaller" },
-    @{name = "Sonos.Controller" },
     @{name = "Spotify.Spotify" },
-    @{name = "VideoLAN.VLC" },
     
     # Coding
     @{name = "Docker.DockerDesktop" },
@@ -34,16 +32,12 @@ $apps = @(
     # Gaming
     @{name = "Discord.Discord" },
     @{name = "ElectronicArts.EADesktop" },
-    @{name = "EpicGames.EpicGamesLauncher" },
-    @{name = "Overwolf.CurseForge" },
-    # @{name = "RiotGames.LeagueOfLegends.EUW" }, Disabled because it would install on the default location
-    @{name = "Ubisoft.Connect" },
     @{name = "Valve.Steam" },
 
     # Overclocking
-    @{name = "CPUID.CPU-Z" },
-    @{name = "CPUID.HWMonitor" },
-    @{name = "TechPowerUp.GPU-Z" }
+    @{name = "CPUID.CPU-Z.MSI" },
+    @{name = "REALiX.HWiNFO" },
+    @{name = "TechPowerUp.GPU-Z" }w
 );
 Foreach ($app in $apps) {
     $listApp = winget list --exact -q $app.name
@@ -51,30 +45,6 @@ Foreach ($app in $apps) {
     if (![String]::Join("", $listApp).Contains($app.name)) {
         Write-host "Installing: " $app.name
         winget install -e -h --accept-source-agreements --accept-package-agreements --id $app.name 
-    } else {
-        Write-host "Skipping: " $app.name " (already installed)"
-    }
-}
-
-# Chocolatey
-
-# Install chocolatey-cli
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-
-$apps = @(
-    # General
-    @{name = "amd-ryzen-chipset" },
-
-    # Overclocking
-    @{name = "amd-ryzen-master" },
-    @{name = "msiafterburner" }
-);
-Foreach ($app in $apps) {
-    $listApp = choco search $app.name --local-only
-
-    if (![String]::Join("", $listApp).Contains($app.name)) {
-        Write-host "Installing: " $app.name
-        choco install $app.name
     } else {
         Write-host "Skipping: " $app.name " (already installed)"
     }
