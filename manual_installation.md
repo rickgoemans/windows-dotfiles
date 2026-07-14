@@ -25,3 +25,5 @@ This guide lists software that needs to be manually installed outside of automat
 ## Overclocking
 
 - **AMD Ryzen Master** - CPU and RAM overclocking utility - [Download](https://www.amd.com/en/products/software/ryzen-master.html#download)
+
+- **AMD Ryzen Master** - CPU and RAM overclocking utility - [Download](https://www.amd.com/en/products/software/ryzen-master.html#download)

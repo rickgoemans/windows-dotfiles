@@ -22,8 +22,8 @@ $apps = @(
     
     # Coding
     @{name = "Docker.DockerDesktop" },
-    @{name = "Git.Git" },
-    @{name = "GitHub.GitHubDesktop" },
+    # @{name = "Git.Git" },
+    # @{name = "GitHub.GitHubDesktop" },
     @{name = "Microsoft.VisualStudioCode" },
     @{name = "PuTTY.PuTTY" },
     @{name = "TablePlus.TablePlus" },
