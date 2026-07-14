@@ -19,12 +19,15 @@ $apps = @(
     @{name = "MOTU.MSeries" },
     @{name = "RevoUninstaller.RevoUninstaller" },
     @{name = "Spotify.Spotify" },
+    @{name = "Tailscale.Tailscale" },
     
     # Coding
     @{name = "Docker.DockerDesktop" },
     # @{name = "Git.Git" },
     # @{name = "GitHub.GitHubDesktop" },
     @{name = "Microsoft.VisualStudioCode" },
+    @{name = "OpenJS.NodeJS"},
+    @{name = "pnpm.pnpm"},
     @{name = "PuTTY.PuTTY" },
     @{name = "TablePlus.TablePlus" },
     @{name = "TimKosse.FileZilla.Client" },
@@ -36,8 +39,10 @@ $apps = @(
 
     # Overclocking
     @{name = "CPUID.CPU-Z.MSI" },
+    @{name = "Guru3D.Afterburner" },
+    @{name = "MSI.Kombustor.4"},
     @{name = "REALiX.HWiNFO" },
-    @{name = "TechPowerUp.GPU-Z" }w
+    @{name = "TechPowerUp.GPU-Z" },
 );
 Foreach ($app in $apps) {
     $listApp = winget list --exact -q $app.name
