@@ -6,7 +6,7 @@ This guide lists software that needs to be manually installed outside of automat
 
 - **MSI motherboard** - Should popup during system startup
 - **AMD chipset** - Required for proper hardware support
-- **MSI Mystic Light** - RGB lighting control software
+- **MSI Mystic Light** - RGB lighting control software (install Nvidia and MSI plugins)
 - **Nvidia GPU driver** - [Download](https://www.nvidia.com/en-us/drivers/)
 - **OBSBot Center** - [Download](https://www.obsbot.com/download/obsbot-meet-2)
 - **NuphyIOn** - Nuphy keyboard software - [Download](https://drive.nuphy.io)
