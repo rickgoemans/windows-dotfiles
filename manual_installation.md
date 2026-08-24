@@ -9,7 +9,7 @@ This guide lists software that needs to be manually installed outside of automat
 - **MSI Mystic Light** - RGB lighting control software (install Nvidia and MSI plugins)
 - **Nvidia GPU driver** - [Download](https://www.nvidia.com/en-us/drivers/)
 - **OBSBot Center** - [Download](https://www.obsbot.com/download/obsbot-meet-2)
-- **NuphyIOn** - Nuphy keyboard software - [Download](https://drive.nuphy.io)
+- **NuphyIOn** - Ajazz keyboard software - [Download](https://epomaker.com/blogs/software/ajazz-ak820-pro-driver)
 - **UGreen NAS** - UGreen NAS access software - [Download](https://ai.ugreen.com/pages/app-download)
 
 # General
@@ -27,6 +27,7 @@ This guide lists software that needs to be manually installed outside of automat
 ## Coding
 
 - **Laravel Herd** - Local Laravel development environment - [Download](https://herd.laravel.com/download/latest/windows)
+- **DBngin** - Database management tool - [Download](https://dbngin.com) 
 
 ## Overclocking
 
