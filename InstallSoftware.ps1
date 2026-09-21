@@ -20,6 +20,7 @@ $apps = @(
     @{name = "RevoUninstaller.RevoUninstaller" },
     @{name = "Rufus.Rufus" },
     @{name = "Spotify.Spotify" },
+    @{name = "Syncthing.Syncthing" },
     @{name = "Tailscale.Tailscale" },
     
     # Coding
